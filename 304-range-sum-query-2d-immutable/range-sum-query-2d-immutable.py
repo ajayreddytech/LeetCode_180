@@ -1,3 +1,7 @@
+# prefix matrix = inside PM, i+1, j+1 th element = sum of all the eles in the sub matrix from 0,0 to i,j
+# sum from prefix matrix = (outerRectangle) - (sideRectanngle1) - (sideRectangle2) + (add double deducted rectange area)
+
+
 class NumMatrix:
 
     def __init__(self, matrix: List[List[int]]):
