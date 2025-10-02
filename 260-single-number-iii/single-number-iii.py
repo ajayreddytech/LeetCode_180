@@ -11,7 +11,7 @@ class Solution:
 
         # now, result stores xor of those 2 nums
 
-        # to get the left most set-bit in the result
+        # to get the right most set-bit in the result
         # now the result has only one set-bit somewhere and all the other bits are zeroes
         result = result & -result
 
